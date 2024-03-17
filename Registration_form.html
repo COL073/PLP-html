@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>STUDENTS REGISTRATION FORM.</title>
+    </head>
+    <body>
+        <h1>Fill the form with accurate and valid data.</h1>
+        <form>
+            <label for="fname">First name</label>
+            <input type="text" name="fname" id="fname" value="" required><br>
+            <br />
+             <label for="lname">Last name</label>
+             <input type="text" name="lname" id="lname" value="" required><br>
+             <br />
+             <label for="D.O.B">Date of Birth:</label>
+             <input type="date" name="D.O.B" id="D.O.B" placeholder="Enter Date of birth">
+             <br />
+             <label for="female">Female</label>
+             <input type="radio" id="gender" name="gender" value="female" required><br>
+             <label for="male">Male</label>
+             <input type="radio" id="gender" name="gender" value="female" required>
+             <br />
+             <label for="address">State your address:</label>
+             <input type="address" id="address" name="address" value="" required><br>
+             <br />
+             <label for="email">Enter your email:</label>
+             <input type="email" id="email" name="email" required>
+             <br />
+             <label for="telephone">Telephone:</label><br>
+            <input type="tel" id="tel" name="telephone" required aria-invalid="false">
+            <br />
+            <label for="courses">Choose course:</label>
+            <select id="course" name="course" required>
+                <option value=""></option>
+                <option value="Medicine">Medicine</option>
+                <option value="Hospitality">Hospitality</option>
+                <option value="Forensic Science">Forensic Science</option>
+                <option value="Education">Education</option>
+                <option value="Criminology">Criminology</option>
+            </select>
+            <br />
+            <button type="submit">Register</button> <br>
+            <button type="submit">Cancel</button> <br>
+        </form>
+    </body>
+</html>
