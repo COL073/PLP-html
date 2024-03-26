@@ -1,0 +1,41 @@
+#skills{
+    padding: 20px 40px 30px 15px;
+    background-color: blanchedalmond;
+    
+}
+
+.list{
+    padding-right: 20px;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background-color: azure ;
+}
+
+
+#top{
+    margin-top: auto;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 40px;
+    color: dodgerblue;
+}
+
+.contact {
+    background-color: paleturquoise;
+    padding: 20px;
+    color: gray;
+    text-align: center;
+    margin: 30px;
+}
+
+.contact a{
+    color: gray;
+    text-decoration: wavy;
+    margin: 0 10px;
+}
+@media only screen and(max-width: 600px) {#skills, .contact, .contact{
+    margin: 10px;
+}
+    
+}
